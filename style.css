@@ -11,7 +11,7 @@
 }
 
 header{
-  background-color: #ff0000;
+  background-color: #8b0000;
   width: 100%;
   position: flex;
   z-index: 999;
@@ -47,10 +47,52 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #808080
+  background: url('images/background.jpg');
   background-size: cover;
   background-position: center;
   
 }
+.main h2{
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 500
+}
+.main h2 span{
+  color: #8b0000;
+  font-size: 3em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px
+}
+.main h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 
-
+.main-btn{
+  color: #fff;
+  background-color: #8b0000;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-redius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7 ease;
+  
+}
+.main-btn:hover{
+  background-color: #66424d;
+  transform: scalse (1.1);
+}
+.social-icons a{
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
